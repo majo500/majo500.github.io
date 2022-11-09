@@ -1,0 +1,963 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+/************************************CONTENEDOR-IMAGEN**********************************************/
+.container{
+
+    position: relative;
+    width: 100%px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.container .card{
+
+    width: 308px;
+    position: relative;
+    height: 400px;
+    background: #f0f0f0;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0.5px 10px #e6e6e6;
+    transition: 0.3s ease-in-out;
+    margin-top: 5%;
+
+}
+.container .card .imgBx {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+}
+
+.container .card .imgBx img{
+    
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.imgBx:hover img{
+    transform: scale(1.1);
+}
+
+/***************************************************************************************************/
+
+.CONTENEDOR.PRINCIPAL {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.cuerpo .contenedor.articulos .platillo {
+    width: 100%px;
+    border-radius: 5px;
+    height: 445px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+.cuerpo .container {
+
+    width: 100%px;
+    border-radius: 5px;
+    height: 445px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.CONTENEDOR.PRINCIPAL .cuerpo .contenedor.articulos {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 70px;
+    float: left;
+    clear: left;
+    width: 100%;
+}
+.contenedor.articulos section .nosotros {
+    width: 60%;
+    height: 980px;
+    float: right;
+    clear: both;
+    padding-top: 48px;
+    margin-right: 5%;
+}
+.contenedor.articulos section .we {
+    width: 30%;
+    background-color: #F67A59;
+    float: left;
+    height: 956px;
+    margin-top: 50px;
+    text-decoration: none;
+    font-size: 23pt;
+    vertical-align: text-bottom;
+    list-style-type: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 22px;
+    margin-left: 5%;
+}
+section .we img {
+    width: 80%;
+    height: 322px;
+    text-align: center;
+    margin-top: 108px;
+}
+section .nosotros img {
+    width: 100%;
+    height: 980px;
+}
+
+
+section .we .T {
+    width: 46%;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 10px solid #FFFFFF;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+
+
+.CONTENEDOR.PRINCIPAL .CABECERA {
+    background-color: #FFAFEF;
+    width: 100%;
+    height: 0%;
+}
+
+.CONTENEDOR.PRINCIPAL .CABECERA img {
+    height: 150px;
+    width: 244px;
+    margin-left: 27px;
+    float: left;
+    clear: left;
+    margin-top: -133px;
+}
+
+
+
+.CONTENEDOR.PRINCIPAL .MENÚ {
+    width: 100%;
+    height: 70px;
+    border-radius: 0px;
+    padding-bottom: 53px;
+}
+.CONTENEDOR.PRINCIPAL .CABECERA .B {
+    margin-top: 0px;
+    margin-left: 1146px;
+}
+
+.CONTENEDOR.PRINCIPAL .CABECERA .textura {
+    float: right;
+    clear: right;
+    width: 70%;
+    min-height: 0px;
+    margin-right: 44px;
+}
+
+
+.CONTENEDOR.PRINCIPAL .MENÚ .CONTROLES {
+    width: 100%;
+    background-color: #F77A59;
+    display: Flex;
+    padding-top: 7px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0px;
+    margin-right: 0px;
+    align-content: flex-start;
+}
+.MENÚ .CONTROLES li {
+    background-color: #DD4C2E;
+    width: 240px;
+    height: 35px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-top: 8px;
+    font-family: 'Oregano', cursiva;
+    ;
+    ;
+    color: hsla(0,0%,100%,1.00);
+    list-style-type: none;
+    font-size: 18pt;
+    justify-content: center;
+    margin-right: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    -webkit-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+.CONTROLES li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+.CONTENEDOR.PRINCIPAL .cuerpo {
+    background-color: #F7E9E2;
+    width: 100%;
+    padding-top: 42px;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    margin-top: -43px;
+}
+
+
+
+
+
+.CONTENEDOR.PRINCIPAL .PIE {
+    width: 100%;
+    background-color: hsla(312,100%,84%,1.00);
+    clear: both;
+    padding-bottom: 30px;
+}
+.MENÚ .CONTROLES li:active {
+    background-color: #FFFFFF;
+}
+.CONTROLES li a:hover {
+    color: #000000;
+}
+.CONTENEDOR.PRINCIPAL .PIE p {
+    padding-top: 8px;
+    margin-left: 25px;
+    color: #FFFFFF;
+    float: left;
+    clear: left;
+    margin-top: 6px;
+    padding-bottom: 0px;
+    margin-bottom: 1px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.CONTENEDOR.PRINCIPAL .PIE img {
+    float: left;
+    clear: right;
+    width: 225px;
+    height: 158px;
+    margin-top: -150px;
+    margin-right: 15px;
+    margin-left: 1090px;
+
+}
+.CONTENEDOR.PRINCIPAL .PIE .logos {
+    float: left;
+    clear: both;
+    margin-top: 9px;
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+}
+.CONTENEDOR.PRINCIPAL .PIE .logos2 {
+    float: left;
+    margin-top: 9px;
+    width: 30px;
+    height: 30px;
+    margin-left: 1px;
+}
+div article img {
+    margin-right: auto;
+    margin-bottom: 15px;
+    padding-top: 0px;
+    width: 100%;
+    height: 710px;
+}
+.cuerpo div article {
+    width: 80%;
+    height: 710px;
+    float: left;
+    color: #F77A59;
+    font-family: 'Raleway', sans-serif;
+    font-size: 19pt;
+    text-align: justify;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: 10%;
+    margin-bottom: 44px;
+    padding-bottom: 46px;
+}
+div .tex img {
+    width: 90px;
+    height: 110px;
+    border-style: none;
+    margin-left: 1174px;
+    margin-top: -42px;
+}
+
+/*----------------------Contendor-inicial--------------------------*/
+
+.container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    align-content:flex-start;
+    height:100vh; /*Este valor lo puedes omitir si la altura de tu componente esta definida*/
+  }
+
+.cuerpo .container .item-0{
+    order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:auto;
+  }        
+
+/*-------------------------------------------------------------------------------------------*/
+
+.cuerpo div article {
+    height: 391px;
+    margin-bottom: 275px;
+    /* [disabled]margin-top: -5px; */
+
+}
+
+
+.cuerpo div .tex {
+    background-color: #F77A59;
+    border-style: none;
+    -webkit-transition: all 200ms ease-in-out 0s;
+    -o-transition: all 200ms ease-in-out 0s;
+    transition: all 200ms ease-in-out 0s;
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: 5%;
+    margin-bottom: auto;
+    width: 90%;
+    height: 218px;
+}
+div .tex p {
+    color: #FFFFFF;
+    width: 74%;
+    margin: auto;
+    font-family: 'Oregano', cursive;
+    ;
+    ;
+    font-size: 22pt;
+    text-align: justify;
+    -webkit-transition: all 200ms;
+    -o-transition: all 200ms;
+    transition: all 200ms;
+    padding-top: 75px;
+}
+.tex p .tex {
+    margin-left: 15px;
+}
+section .we .T {
+    width: 48%;
+
+
+}
+.cuerpo .contenedor.articulos a {
+
+    width: 228px;
+    background-color: #1B1B1B;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Oregano', cursive;
+    font-size: 15pt;
+    height: 35px;
+    padding-top: 6px;
+    margin-top: 20px;
+    border: 5px solid #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    float: left;
+    position: absolute;
+    margin-right: 63px;
+    margin-left: 85px;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+    margin-top: 420px;
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:1500px) and (min-width:901px)
+{
+.CONTENEDOR.PRINCIPAL .CABECERA .B {
+    margin-top: -18px;
+    margin-left: 995px;
+    float: right;
+    margin-right: 35px;
+    height: 115px;
+}
+.CONTENEDOR.PRINCIPAL .MENÚ .CONTROLES {
+    width: 100%;
+    background-color: #F77A59;
+    display: Flex;
+    padding-top: 11px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0px;
+    margin-right: 0px;
+    align-content: flex-start;
+    padding-bottom: 5px;
+    margin-bottom: 50px;
+}
+.CONTENEDOR.PRINCIPAL .cuerpo {
+    background-color: #F7E9E2;
+    width: 100%;
+    padding-top: 42px;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    margin-top: -42px;
+}
+.CONTENEDOR.PRINCIPAL .MENÚ {
+    width: 100%;
+    height: 0%;
+    border-radius: 0px;
+    padding-bottom: 0px;
+}
+div .tex img {
+    width: 8%;
+    height: 110px;
+    border-style: none;
+    margin-left: 87%;
+    margin-top: -68px;
+    float: right;
+    margin-right: 5%;
+}
+.cuerpo div article {
+    height: 391px;
+    margin-bottom: 275px;
+    /* [disabled]margin-top: -5px; */
+
+}
+.CONTENEDOR.PRINCIPAL .PIE img {
+    float: right;
+    clear: right;
+    width: 20%;
+    height: 158px;
+    margin-top: -150px;
+    margin-right: 8%;
+    margin-left: 72%;
+
+}
+.CONTENEDOR.PRINCIPAL {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: auto;
+    padding-bottom: 0px;
+    max-width: 2000px;
+}
+.cuerpo div .tex {
+    background-color: #F77A59;
+    border-style: none;
+    -webkit-transition: all 200ms ease-in-out 0s;
+    -o-transition: all 200ms ease-in-out 0s;
+    transition: all 200ms ease-in-out 0s;
+    margin-top: 60px;
+    margin-right: auto;
+    margin-left: 5%;
+    margin-bottom: auto;
+    width: 90%;
+    height: 262px;
+}
+section .we p {
+    font-size: 19pt;
+    width: 91%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 38px;
+}
+
+
+
+}
+
+
+.contenedor.articulos .boton article:hover {
+    color: #000000;
+    background-color: #FFAFEF;
+}
+.cuerpo div .tex:hover {
+    background-color: #FFAFEF;
+}
+div .tex p:hover {
+    color: #000000;
+}
+
+@media screen and (max-width:500px)
+{
+.CONTENEDOR.PRINCIPAL .CABECERA {
+    background-color: #FFAFEF;
+    width: 100%;
+    height: 288px;
+    padding-bottom: 0px;
+}
+.CONTENEDOR.PRINCIPAL .CABECERA .B {
+    width: 48%;
+    margin-left: 26%;
+    margin-top: 27px;
+    height: 93px;
+    margin-right: auto;
+
+}
+.CONTENEDOR.PRINCIPAL .CABECERA img {
+    height: 89px;
+    width: 56%;
+    margin-left: 23%;
+    float: left;
+    clear: left;
+    margin-right: 21%;
+    margin-top: 35px;
+}
+.CONTENEDOR.PRINCIPAL {
+    width: 100%;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: auto;
+    padding-bottom: 0px;
+}
+.CONTENEDOR.PRINCIPAL .MENÚ {
+    width: 100%;
+    height: 245px;
+    border-radius: 0px;
+    padding-bottom: 53px;
+}
+div article img {
+    margin-right: auto;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 357px;
+}
+div .tex img {
+    width: 75px;
+    height: 74px;
+    border-style: none;
+    margin-left: 153px;
+    margin-top: 17px;
+    margin-right: auto;
+}
+.cuerpo div .tex {
+    background-color: #F77A59;
+    border-style: none;
+    -webkit-transition: all 200ms ease-in-out 0s;
+    -o-transition: all 200ms ease-in-out 0s;
+    transition: all 200ms ease-in-out 0s;
+    margin-right: auto;
+    margin-bottom: auto;
+    width: 89%;
+    height: 550px;
+    margin-top: -300px;
+}
+div .tex p {
+    color: #FFFFFF;
+    width: 75%;
+    margin: auto;
+    font-family: 'Oregano', cursive;
+    ;
+    ;
+    font-size: 20pt;
+    text-align: justify;
+    -webkit-transition: all 200ms;
+    -o-transition: all 200ms;
+    transition: all 200ms;
+    padding-top: 92px;
+}
+.cuerpo .contenedor.articulos a {
+
+    width: 228px;
+    background-color: #1B1B1B;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Oregano', cursive;
+    font-size: 15pt;
+    height: 35px;
+    padding-top: 6px;
+    margin-top: 20px;
+    border: 5px solid #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    float: left;
+    position: absolute;
+    margin-right: 63px;
+    margin-left: 85px;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+    margin-top: 420px;
+
+}
+.contenedor.articulos section .we {
+    width: 69%;
+    background-color: #F67A59;
+    height: 953px;
+    margin-top: 41px;
+    text-decoration: none;
+    font-size: 23pt;
+    vertical-align: text-bottom;
+    list-style-type: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 33px;
+    margin-left: 70px;
+    margin-right: 1px;
+}
+.contenedor.articulos section .nosotros {
+    width: 80%;
+    height: 500px;
+    float: none;
+    clear: both;
+    padding-top: 30px;
+    margin-left: 46px;
+    margin-bottom: 9px;
+    margin-top: 48px;
+}
+section .nosotros img {
+    width: 100%;
+    height: 482px;
+}
+
+.tex p .tex {
+    margin-left: 15px;
+    font-size: 16pt;
+    font-weight: bold;
+}
+section .we .T {
+    width: 54%;
+}
+section .we p {
+    font-size: 19pt;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 11px;
+}
+.CONTENEDOR.PRINCIPAL .PIE {
+    width: 100%;
+    background-color: hsla(312,100%,84%,1.00);
+    clear: both;
+    padding-bottom: 30px;
+}
+.CONTENEDOR.PRINCIPAL .PIE img {
+    clear: none;
+    width: 102px;
+    height: 71px;
+    margin-left: 316px;
+    margin-top: -33px;
+    margin-bottom: -21px;
+
+}
+.CONTENEDOR.PRINCIPAL .PIE .logos2 {
+    float: left;
+    margin-top: 9px;
+    width: 30px;
+    height: 30px;
+    margin-left: 1px;
+}
+
+.CONTENEDOR.PRINCIPAL .cuerpo div {
+    width: 100%;
+    margin-top: 10px;
+}
+section .we img {
+    width: 44%;
+    height: 199px;
+    text-align: center;
+    margin-top: 186px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (min-width:501px) and (max-width:900px){
+.CONTENEDOR.PRINCIPAL .CABECERA {
+    background-color: #FFAFEF;
+    width: 100%;
+    height: 239px;
+    margin-left: 0px;
+    padding-bottom: 44px;
+}
+.CONTENEDOR.PRINCIPAL .CABECERA .B {
+    width: 38%;
+    margin-left: 31%;
+    margin-top: 27px;
+    height: 93px;
+    margin-right: 0%;
+
+}
+.CONTENEDOR.PRINCIPAL .CABECERA img {
+    height: 115px;
+    width: 40%;
+    margin-left: 28%;
+    float: left;
+    clear: left;
+    margin-top: 8px;
+    margin-right: 28%;
+}
+.CONTENEDOR.PRINCIPAL .MENÚ {
+    width: 100%;
+    height: 0%;
+    border-radius: 0px;
+    padding-bottom: 53px;
+}
+.CONTENEDOR.PRINCIPAL .cuerpo {
+    background-color: #F7E9E2;
+    width: 100%;
+    padding-top: 42px;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    margin-top: -43px;
+}
+div article img {
+    margin-right: auto;
+    margin-bottom: 15px;
+    padding-top: 0px;
+    width: 100%;
+    height: 500px;
+}
+.cuerpo div article {
+    width: 80%;
+    height: 0%;
+    float: left;
+    color: #F77A59;
+    font-family: 'Raleway', sans-serif;
+    font-size: 19pt;
+    text-align: justify;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: 10%;
+    margin-bottom: 8px;
+    padding-bottom: 0px;
+}
+.cuerpo div .tex {
+    background-color: #F77A59;
+    border-style: none;
+    -webkit-transition: all 200ms ease-in-out 0s;
+    -o-transition: all 200ms ease-in-out 0s;
+    transition: all 200ms ease-in-out 0s;
+    margin-right: auto;
+    margin-left: 5%;
+    margin-bottom: auto;
+    width: 90%;
+    height: 0%;
+    padding-bottom: 0px;
+}
+div .tex img {
+    width: 15%;
+    height: 122px;
+    border-style: none;
+    margin-left: 45%;
+    margin-top: 7px;
+    margin-right: auto;
+    min-width: px;
+}
+div .tex p {
+    color: #FFFFFF;
+    width: 74%;
+    margin: auto;
+    font-family: 'Oregano', cursive;
+    ;
+    ;
+    font-size: 21pt;
+    text-align: justify;
+    -webkit-transition: all 200ms;
+    -o-transition: all 200ms;
+    transition: all 200ms;
+    padding-top: 44px;
+    height: 0%;
+}
+
+.cuerpo .contenedor.articulos a {
+
+    width: 228px;
+    background-color: #1B1B1B;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Oregano', cursive;
+    font-size: 15pt;
+    height: 35px;
+    padding-top: 6px;
+    margin-top: 20px;
+    border: 5px solid #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    float: left;
+    position: absolute;
+    margin-right: 63px;
+    margin-left: 85px;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+    margin-top: 420px;
+
+}
+.contenedor.articulos section .nosotros {
+    width: 39%;
+    height: 0px;
+    float: right;
+    padding-top: 18px;
+    margin-right: 5%;
+    margin-top: 34px;
+}
+.contenedor.articulos section .we {
+    width: 46%;
+    background-color: #F67A59;
+    height: 584px;
+    margin-top: 49px;
+    text-decoration: none;
+    font-size: 23pt;
+    vertical-align: text-bottom;
+    list-style-type: none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 32px;
+    margin-left: 5%;
+    padding-bottom: 66px;
+    min-height: 0px;
+}
+section .nosotros img {
+    width: 100%;
+    height: 464px;
+    float: right;
+}
+section .we .T {
+    width: 59%;
+    background-color: #000000;
+    color: #FFFFFF;
+    border: 10px solid #FFFFFF;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+}
+section .we p {
+    font-size: 19pt;
+    width: 91%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 11px;
+}
+section .we img {
+    width: 38%;
+    height: 117px;
+    text-align: center;
+    margin-top: 6px;
+    min-height: 50px;
+}
+.CONTENEDOR.PRINCIPAL .PIE img {
+    float: right;
+    clear: right;
+    width: 133px;
+    height: 108px;
+    margin-top: -84px;
+    margin-right: 15px;
+    margin-left: 569px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
